@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-h3-retime"
+description = "Per-frame (temporally uncompressed) autoregressive restoration, rolling windows, Context Studio timeline editor, and temporal stabilization for MiniMax H3."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["opencv-python", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/Alex240z/ComfyUI-H3-ReTime"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = "alex240z"
+DisplayName = "ComfyUI-H3-ReTime"
+Icon = ""
