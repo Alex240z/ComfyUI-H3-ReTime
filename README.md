@@ -6,7 +6,11 @@ Normal MiniMax H3 latents pack `1 + 4 + 4 + 4 + 4` pixel frames into 5 latent fr
 
 ## Install
 
-Copy the `ComfyUI-H3-ReTime` folder into `ComfyUI/custom_nodes/` and restart ComfyUI.
+1. Copy (or `git clone`) `ComfyUI-H3-ReTime` into `ComfyUI/custom_nodes/` and restart ComfyUI.
+2. Download the companion per-frame LoRA (**`H3-Re-Time-v1.safetensors`**) from Hugging Face:
+   - https://huggingface.co/Alex240z/H3-Re-Time-v1
+   - Place it in `ComfyUI/models/loras/` (load at strength `1.0` alongside your MiniMax H3 model).
+3. Drag [H3-Re-Time-WF.json](H3-Re-Time-WF.json) into ComfyUI for a ready-to-run example workflow.
 
 ## Nodes
 
